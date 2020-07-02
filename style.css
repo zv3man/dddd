@@ -1,0 +1,19 @@
+
+h1{
+    color: green;
+}
+div {
+    background-color: yellow;
+}
+p {
+    background-image: url(123.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 25%;
+}
+.repeat {
+    background-image: url(22.jpg);
+    background-repeat: repeat-x;
+    background-size: 25%;
+
+}
