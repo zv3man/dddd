@@ -1,19 +1,33 @@
-
-h1{
-    color: green;
+.checkbox-label {
+    background-color: red;
+    color: white;
+    font-size: 100;
 }
-div {
+.chkb:checked + .checkbox-label {
+ text-decoration: underline;
+}
+
+.cosmo {
+    background-color: green;
+    color: white;
+    }
+.regina:checked + .cosmo {
+    font-style: italic;
+}
+
+.bg {
+    color: white;
+    background-color: blue;
+}
+.bimba:checked + .bg {
     background-color: yellow;
+    color: black;
 }
-p {
-    background-image: url(123.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-size: 25%;
-}
-.repeat {
-    background-image: url(22.jpg);
-    background-repeat: repeat-x;
-    background-size: 25%;
 
+.ders {
+    color: white;
+    background-color: purple;
+}
+.hoha:cheked + .ders {
+text-decoration: underline;
 }
