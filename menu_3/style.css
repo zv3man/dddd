@@ -1,0 +1,18 @@
+nav {
+    background-color: indigo;
+    margin-top: 0;
+    margin-left: 4px;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+.bimba {
+    background-color: slateblue;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    margin-left: -4px;
+    text-decoration: none;
+}
+a:hover {
+    background-color: turquoise;
+}
