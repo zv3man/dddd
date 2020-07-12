@@ -1,0 +1,43 @@
+div {
+    
+    width:700px;
+    overflow: hidden;
+    overflow:scroll;
+}
+ul {
+    background-color: blue;
+    width: 800px;
+    list-style: none;
+    padding:0;
+    
+}
+
+li a {
+    display:inline-block;
+    background-color: steelblue;
+    padding:15px;
+    
+    
+}
+
+.rer {
+    float: right;
+}
+
+.wew {
+    float:left;
+}
+
+.clearfix:after {
+    display: block;
+    content: "";
+    clear:both;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    background-color:teal;
+}
