@@ -1,0 +1,29 @@
+li a {
+    border: 1px solid black;
+    color: royalblue;
+    display:inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: 900;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin-top: 600px;
+    
+
+}
+li {
+    display: inline-block;
+}
+ul {
+    margin-left: 200px;
+}
+a:hover,  .bog {
+    background-color: royalblue;
+    color: white;
+}
+.rer {
+    border: none;
+}
