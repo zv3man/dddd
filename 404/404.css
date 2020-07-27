@@ -1,0 +1,113 @@
+body {
+    background-image: url(404-bg-image.jpg);
+    background-repeat: no-repeat;
+    background-position:top center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/*___404___*/
+.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 321px;
+}
+
+.we, .ew {
+    line-height: 0;
+    padding: 16px;
+    letter-spacing: normal;
+    font-size: 209px;
+    font-family:  'Open Sans',  sans-serif;
+    color:white;
+}
+
+/*___text_under___*/
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+p {
+    width: 425px;
+    height: 68px;
+    color: white;
+    font-family: OpenSans;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.4;
+    letter-spacing: normal;
+    text-align: center;
+}
+/*___go_back_link___*/
+.goback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+  text-decoration: none;
+  font-family: OpenSans;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 3.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffe600;
+}
+
+/*___form___*/
+.form {
+    display: flex;
+    justify-content: center;
+
+}
+input {
+  width: 571px;
+  height: 71px;
+  border-color: white;
+  background-color: transparent;
+  
+}
+::-webkit-input-placeholder {
+  font-family: OpenSans;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3.6;
+  padding-left: 20px;
+  letter-spacing: normal;
+  text-align: start;
+  color: white;
+}
+
+button {
+    width: 170px;
+    height: 72px;
+    background-color: #2a233d;
+    font-family: OpenSans;
+    font-size: 15px;
+    margin-left: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.6;
+    letter-spacing: normal;
+    text-align: center;
+    color:white;
+}
+
+
+
+
+
+
+
