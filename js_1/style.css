@@ -1,0 +1,45 @@
+
+.cont {
+    background-color:green;
+    height: 1000px;
+    
+}
+.ele {
+    height: 600px;
+    background-color: thistle;
+    border:1px solid black;
+   
+    
+}
+.inner {
+    margin-left: 100px;
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    margin-top: 150px; 
+    border-radius: 30px;
+    animation-name: ro;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    
+   
+}
+@keyframes ro {
+
+    from {
+margin-left: 100px;
+transform:rotate(0deg);
+background-color: yellow;
+        
+    }
+    50% {
+        margin-left: calc(100% - 400px);
+        transform: rotate(90deg);
+        background-color: red;
+    }
+    to {
+        margin-left: 100px;
+        transform: rotate(180deg);
+        background-color: yellow;
+    }
+}
